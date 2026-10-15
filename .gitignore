@@ -1,0 +1,21 @@
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# Local backups and unfinished results
+scene_config_original.py
+experiment_results.csv
+
+# Simulation outputs
+runs/
+
+# Large AI model weights
+*.safetensors
+*.ckpt
+*.pt
+*.pth
