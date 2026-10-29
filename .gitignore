@@ -1,0 +1,35 @@
+
+# Local environments, caches and credentials
+**/.venv/
+**/.uv-tools/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+.request.json
+**/.request.json
+*.pem
+*.key
+
+# Generated recordings and archives
+*.mp4
+*.mov
+*.MOV
+*.tar
+*.tar.gz
+*.zip
+*.log
+**/captures/
+**/exports/
+
+# Keep only the baseline required for recovery reproduction
+/fanuc_er4ia_sim/runs/*
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/
+/fanuc_er4ia_sim/runs/baseline_03_promptfix/*
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/sort_plan.json
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/scene_state.json
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/ground_truth.json
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/detections.json
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/world_camera.png
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/camera.json
+!/fanuc_er4ia_sim/runs/baseline_03_promptfix/execution_report.json

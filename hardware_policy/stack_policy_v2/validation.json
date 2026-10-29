@@ -1,0 +1,28 @@
+{
+  "unit_tests": {
+    "passed": 27,
+    "failed": 0
+  },
+  "scripted_replay": {
+    "unchanged": "six placement command sequences; physical success unverified",
+    "shift10": "six placement command sequences, one update; physical success unverified",
+    "disagree": "review before first grasp",
+    "uncertain": "review before first grasp"
+  },
+  "original_guard_offline_fault_injection": {
+    "matching_estimates": "accepted",
+    "injected_8mm_disagreement": "human_review_requested",
+    "thresholds_changed": false,
+    "real_model_error_observed": false
+  },
+  "organizer_mock": {
+    "rollouts": 3,
+    "actions": 110,
+    "rejected": 0,
+    "scope": "motion prefix, scripted fixture poses"
+  },
+  "real_camera_inference_executed": false,
+  "physical_robot_executed": false,
+  "submission_sent": false,
+  "slot_booked": false
+}
